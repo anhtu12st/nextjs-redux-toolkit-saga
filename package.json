@@ -1,0 +1,29 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "eslint": "./node_modules/.bin/eslint . --fix"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@reduxjs/toolkit": "^1.5.0",
+    "axios": "^0.21.1",
+    "next": "10.0.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
